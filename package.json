@@ -1,0 +1,77 @@
+{
+  "name": "bcfe",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "^1.3.8",
+    "@material-ui/core": "^4.3.0",
+    "@material-ui/icons": "^4.2.1",
+    "@material-ui/lab": "^4.0.0-alpha.23",
+    "@material-ui/pickers": "^3.2.1",
+    "@types/jest": "24.0.15",
+    "@types/node": "12.0.8",
+    "@types/react": "16.8.20",
+    "@types/react-dom": "16.8.4",
+    "@types/react-image-gallery": "^0.8.4",
+    "@types/react-redux": "^7.1.0",
+    "@types/react-router-dom": "^4.3.4",
+    "@types/redux-actions": "^2.6.1",
+    "auth0-js": "^9.10.4",
+    "axios": "^0.19.0",
+    "classnames": "^2.2.6",
+    "clsx": "^1.0.4",
+    "date-fns": "^2.0.0-beta.2",
+    "material-ui-dropzone": "^2.4.0",
+    "material-ui-treeview": "^3.4.0",
+    "mdbreact": "^4.16.0",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.8.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-image-gallery": "^0.8.18",
+    "react-infinite-scroller": "^1.2.4",
+    "react-markdown": "^4.0.8",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-select": "^3.0.4",
+    "react-simplemde-editor": "^4.0.0",
+    "react-social-icons": "^4.1.0",
+    "react-split-pane": "^0.1.87",
+    "react-youtube": "^7.9.0",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.5",
+    "redux-thunk": "^2.3.0",
+    "remove-markdown": "^0.3.0",
+    "typescript": "^3.5.2",
+    "webfontloader": "^1.6.28"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint:fix": "eslint --ext .jsx --ext .tsx --ext .js src/ --fix",
+    "deploy": "aws --profile bc s3 sync dist/ s3://bcfe"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "prettier": "1.18.2"
+  }
+}
